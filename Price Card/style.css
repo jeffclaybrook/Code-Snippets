@@ -1,0 +1,142 @@
+:root {
+   --blue: #2151EC;
+   --black: #11152A;
+   --gray: #6f788b;
+}
+
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   -webkit-font-smoothing: antialiased;
+   text-rendering: optimizeLegibility;
+   font-family: 'Inter', sans-serif;
+   background-color: #f8fafc;
+   margin: 4rem 6rem;
+}
+
+img {
+   max-width: 100%;
+}
+
+a {
+   text-decoration: none;
+}
+
+header {
+   background-color: #E2E7F0;
+   padding: 3rem;
+   text-align: left;
+   line-height: 1.6;
+   border-radius: 12px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+h1 {
+   color: var(--black);
+   font-weight: 700;
+   font-size: 36px;
+}
+
+h2 {
+   color: var(--black);
+   font-weight: 700;
+}
+
+h3 {
+   color: var(--black);
+   font-weight: 700;
+}
+
+h4 {
+   color: var(--gray);
+   font-weight: 700;
+}
+
+h5 {
+   color: var(--gray);
+   font-weight: 700;
+   opacity: 70%;
+}
+
+p {
+   color: var(--gray);
+   font-weight: 500;
+}
+
+main {
+   margin: 4rem 0;
+}
+
+section {
+   margin: 2rem 0;
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+
+.card {
+   background-color: #ffffff;
+   padding: 2.25rem 2rem;
+   border-radius: 12px;
+   width: calc(33% - 1.9rem);
+   box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+}
+
+.card h1 {
+   margin-top: .75rem;
+}
+
+.card h3 {
+   line-height: 2;
+}
+
+.card p {
+   color: var(--gray);
+   font-weight: 400;
+   font-size: .875rem;
+   line-height: 1.8;
+   letter-spacing: -.02em;
+}
+
+ul {
+   list-style-position: inside;
+   list-style-type: none;
+   line-height: 2.75;
+   margin-top: .75rem;
+}
+
+ul li:before {
+   content: '\2713\0020';
+   color: green;
+   margin-right: .25rem;
+}
+
+li {
+   color: var(--gray);
+   font-weight: 500;
+   font-size: .875rem;
+}
+
+hr {
+   border-color: #f8fafc59;
+   margin: 2rem 0;
+}
+
+button {
+   background-color: var(--blue);
+   color: white;
+   padding: .75rem 0;
+   width: 100%;
+   font-size: 1.1rem;
+   border: 0px solid transparent;
+   border-radius: 6px;
+   font-weight: 600;
+}
